@@ -20,7 +20,7 @@ df = pd.read_csv("D:/Discord/Jack_Harper/database_jack_02.csv")
 #rshb=pd.read_csv("C:/Users/Yosdan/OneDrive/Glendo/Vanessa/Dados/HGBR_Max_Q_Factor.csv")
 
 # Separar as variáveis independentes e dependente
-modelo_features=["LCHW_TEMP","SYS1_SAT_DISCH_TEMP","SYS1_LIQ_LINE_TMP2","SYS1_COMP1_SUCT_TEMP","SYS1_COMP1_DISCH_TEMP","SYS2_SAT_DISCH_TEMP","SYS2_COMP1_SUCT_TEMP","SYS2_COMP1_DISCH_TEMP"]
+modelo_features=["LCHW_TEMP","SYS1_SAT_DISCH_TEMP","SYS1_COMP1_SUCT_TEMP","SYS1_COMP1_DISCH_TEMP","SYS2_SAT_DISCH_TEMP","SYS2_COMP1_SUCT_TEMP","SYS2_COMP1_DISCH_TEMP"]
 X = df[modelo_features]
 
 y = df.ECHW_TMP
